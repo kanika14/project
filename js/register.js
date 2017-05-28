@@ -85,6 +85,7 @@ $('document').ready(function() {
 			url  : 'log.php',
 			data : data,
 			beforeSend: function(){	
+				$(".progress").show();
 				$("#error").fadeOut();
 				$("#login_button").html('<span class="glyphicon glyphicon-transfer"></span> &nbsp; sending ...');
 			},
@@ -224,9 +225,18 @@ $(document).ready(function(){
         s_branch : s_branch,
         s_present : s_present,
         s_total : s_total,
+      },
+      success: function (response){
+      	$( '#display_info' ).val(response);
       }
-    }).done(function(res){  
-      window.location.href = 'attendence.php';
     })
    });
 });
+
+
+$(document).ready(function(){
+	 $('.datepicker').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 15 // Creates a dropdown of 15 years to control year
+  });
+})

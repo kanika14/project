@@ -4,8 +4,9 @@ include_once "inc/header.php";
 
 <div class="container">
 	<div class="row">
-	 	
-			<h1>Register</h1>
+	 	<div class="col s2"></div>
+	 	<div class="col s8 formdiv" style="padding-bottom: 20px;">
+			<h2 class="center">Add User</h2>
 			<div id="register_output" class=""></div>
 	 			<div class="input-field col s6">
 	 			    <i class="material-icons prefix">account_circle</i>
@@ -17,12 +18,7 @@ include_once "inc/header.php";
 					<input id="username" type="text" class="validate">
 					<label for="icon_prefix" data-error="wrong" data-success="right">Name</label>
 				</div>
-		       <div class="input-field col s6">
-		         <input name="gender" type="radio" id="test1" value="male" />
-		         <label for="test1">Male</label>
-		         <input name="gender" type="radio" id="test2" value="female" />
-		         <label for="test2">Female</label>
-		       </div>   
+		          
 				<div class="input-field col s6">
 	 			    <i class="material-icons prefix">email</i>
 					<input id="email" type="email" class="validate">
@@ -55,12 +51,21 @@ include_once "inc/header.php";
         		     <option value="admin">Admin</option>
         		   </select>
         		 </div>
-        		 <input type="date" id="dob" class="datepicker">
-
-				<div class="input-field col s12">
+        		 
+        		 <input type="date" id="dob" class="datepicker col s6">
+        		 
+        		<div class="input-field col s6">
+			         <input name="gender" type="radio" id="test1" value="male" />
+			         <label for="test1">Male</label>
+			         <input name="gender" type="radio" id="test2" value="female" />
+			         <label for="test2">Female</label>
+		       	</div>
+				<div class="input-field col s12" style="padding-top: 20px;">
 					<button class="waves-effect waves-light btn" type="submit" name="register" id="register"><i class="material-icons right">send</i>Register</button>
 				</div>
 	</div>
+	<div class="col s2"></div>
+</div>
 </div>
 
 

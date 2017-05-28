@@ -1,5 +1,6 @@
 <?php 
 session_start();
+
 if(!isset($_SESSION['user_name'])){
 	header("Location: index.php");
 }
@@ -7,9 +8,14 @@ include_once('inc/header.php');
  ?>
 <div class="container">
 	<div class="row">
-		<div class="col s6 center">
-			<h4><?php echo  "Welcome ".strtoupper($_SESSION['user_name']); ?></h4>
+		<div class="col s12 center">
+		<?php if ($_SESSION['user_gender'] == 'female') { ?>
+			<h4><?php echo  "Welcome Miss".strtoupper($_SESSION['user_name']); ?></h4>
+		<?php  }  else { ?>
+		<h4><?php echo  "Welcome Mr. ".strtoupper($_SESSION['user_name']); ?></h4>
+		<?php } ?>
 		</div>
+		<div class="col s6 center"></div>
 		<div class="col s6 center">
 			<?php if (isset($_SESSION['user_type'])) {
 				if ($_SESSION['user_type'] == 'teacher') { ?>
@@ -31,6 +37,9 @@ include_once('inc/header.php');
 		      </div>
  			</form>
  		</div>
+ 		<div class="col s6"></div>
+ 		</div>
+ 		<div class="row">
  		<div class="col s6">
  			<div class="col s12 resultsdiv"></div>
  		</div>

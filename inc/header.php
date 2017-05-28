@@ -19,8 +19,8 @@ if(!session_id())
 	    <a href="index.php" class="brand-logo"><img class="logo" src="img/logo.jpg"></a>
 	    <ul class="right hide-on-med-and-down">
 	      <li><a href="index.php">Home</a></li>
-	      <li><a href="welcome.php">Profile</a></li>
 	      <?php if (isset($_SESSION['user_name'])) { ?>
+	      <li><a href="welcome.php">Profile</a></li>
 	     	<li><a href="signup.php">Add User</a></li>
 	     	<li><a href="logout.php">Logout</a></li>
 	     	<li><a href="#!"><?php echo $_SESSION['user_type']; ?></a></li>

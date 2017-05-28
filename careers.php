@@ -2,10 +2,10 @@
 include_once("inc/header.php");
  ?>
 
- <div class="container">
+ <div class="container" style="background: #90caf9;">
   <div class="row">
     <div class="col s12">
-    	<h2 class="center-align title">Careers</h2>
+    	<h2 class="center-align title" style="color: white;">Careers</h2>
     </div>
     <div class="col s4">
         <div class="card card-panel hoverable">
