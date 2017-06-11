@@ -9,6 +9,7 @@ if(!session_id())
 	<script type="text/javascript" src="js/materialize.min.js"></script>
 	<script type="text/javascript" src="js/validation.min.js"></script>
 	<script type="text/javascript" src="js/register.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
 	<link href="css/font.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/materialize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">

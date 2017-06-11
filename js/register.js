@@ -53,9 +53,12 @@ $(document).ready(function(){
 		}
 	}); }
 	});
+
 });
 
 $('document').ready(function() { 
+
+
 	/* handling form validation */
 	$("#login-form").validate({
 		rules: {
@@ -67,13 +70,7 @@ $('document').ready(function() {
 				email: true
 			},
 		},
-		messages: {
-			password:{
-			  required: "please enter your password"
-			 },
-			user_email: "please enter your email address",
-		},
-		submitHandler: submitForm	
+				submitHandler: submitForm	
 	});	   
 	/* Handling login functionality */
 
@@ -87,11 +84,11 @@ $('document').ready(function() {
 			beforeSend: function(){	
 				$(".progress").show();
 				$("#error").fadeOut();
-				$("#login_button").html('<span class="glyphicon glyphicon-transfer"></span> &nbsp; sending ...');
+				$("#login_button").html('<h3>Sending</h3>');
 			},
 			success : function(response){						
 				if(response=="ok"){									
-					$("#login_button").html('Signing In ...');
+					$("#login_button").html("<h6 style='font-size:10px;'>Signin</h6>");
 					setTimeout(' window.location.href = "welcome.php"; ',500);
 				} else {									
 					$("#error").fadeIn(1000, function(){						
@@ -108,6 +105,11 @@ $('document').ready(function() {
 
 
 function searchStudents(){
+	if ($('#search').val() == '') {
+		$('.resultsdiv').hide();
+	}
+	else{
+		$('.resultsdiv').show();
     $('.searchhsn').addClass('loading');
       var name = document.getElementById('search').value;
       $(".resultsdiv").html('');
@@ -125,6 +127,7 @@ function searchStudents(){
         $(".resultsdiv").html(res);
       });
     }
+}
 
 
 $(document).ready(function(){

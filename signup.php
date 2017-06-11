@@ -2,36 +2,36 @@
 include_once "inc/header.php";
  ?>
 
-<div class="container">
+<div class="container" style="background: #3f51b5; padding-bottom: 62px;">
 	<div class="row">
 	 	<div class="col s2"></div>
 	 	<div class="col s8 formdiv" style="padding-bottom: 20px;">
 			<h2 class="center">Add User</h2>
 			<div id="register_output" class=""></div>
 	 			<div class="input-field col s6">
-	 			    <i class="material-icons prefix">account_circle</i>
+	 			    
 					<input id="colgid" type="text" class="validate">
 					<label for="icon_prefix" data-error="wrong" data-success="right">College ID</label>
 				</div>
 	 			<div class="input-field col s6">
-	 			    <i class="material-icons prefix">account_circle</i>
+	 			    
 					<input id="username" type="text" class="validate">
 					<label for="icon_prefix" data-error="wrong" data-success="right">Name</label>
 				</div>
 		          
 				<div class="input-field col s6">
-	 			    <i class="material-icons prefix">email</i>
+	 			    
 					<input id="email" type="email" class="validate">
 					<label for="icon_prefix" data-error="wrong" data-success="right">Email</label>
 				</div>
 				<div class="input-field col s6">
-	 			    <i class="material-icons prefix">contact_phone</i>
+	 			    
 					<input id="phone" type="tel" maxlength="10" class="validate">
 					<label for="icon_prefix" data-error="wrong" data-success="right">Phone No.</label>
 				</div>
 				
 				<div class="input-field col s6">
-	          		<i class="material-icons prefix">lock</i>	
+	          		
 					<input id="password" type="password" class="validate">
 					<label for="icon_telephone" data-error="wrong" data-success="right">Password</label>
         		</div>
@@ -61,7 +61,7 @@ include_once "inc/header.php";
 			         <label for="test2">Female</label>
 		       	</div>
 				<div class="input-field col s12" style="padding-top: 20px;">
-					<button class="waves-effect waves-light btn" type="submit" name="register" id="register"><i class="material-icons right">send</i>Register</button>
+					<button class="waves-effect pink waves-light btn" style=" padding-left: 370px; padding-right: 370px;" type="submit" name="register" id="register">Register</button>
 				</div>
 	</div>
 	<div class="col s2"></div>

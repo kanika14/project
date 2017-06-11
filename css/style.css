@@ -16,3 +16,79 @@ top: 60px !important;
 	    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
     background: #fff;
 }
+
+.fullwidth{
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+
+.section-team{
+	margin-top: 30px;
+}
+.section-team .card-profile{
+	    cursor: pointer;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.section-team .card-profile .card-avatar{
+	    max-width: 130px;
+    max-height: 130px;
+    margin: -50px auto 0;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.section-team .title{
+	text-align: center;
+	box-shadow: 0px 1px 0px 0px #f0f0f0;
+}
+
+.section-team .card-profile .card-description {
+    padding: 0px 25px;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    border-radius: 3px;
+    color: rgba(0,0,0, 0.87);
+    background: #fff;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+h6{
+	text-transform: uppercase;
+}
+
+
+.card .card-content{
+	padding-bottom: 10px !important; 
+	padding-top: 10px !important
+}
+
+.raisedrow{
+  	margin: -75px 30px 0px;
+    border-radius: 6px;
+    background: #fff;
+    padding-top: 20px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+
+ .parallax-container {
+      height: 500px;
+    }
+
+.raisedrow .s4{
+	padding-top: 50px !important;
+}
+
+
+.raisedrow .s4{
+	padding-top: 20px !important;
+}
