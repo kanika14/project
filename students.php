@@ -1,5 +1,9 @@
 <?php
 session_start();
+$user = $_SESSION['user_type'];
+if ($user == 'student') {
+	header("Location: welcome.php");
+}
 include_once("inc/db.php");
 include_once("inc/header.php");
 if(!isset($_SESSION['user_name'])){
@@ -12,6 +16,9 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) { ?>
 <div class="container">
 	<div class="row">
+		<div class="col s12">
+			<h1 class="center">Students List</h1>
+		</div>
 		<div class="details col s10">     
 		   <table class="striped centered responsive-table highlight bordered">
 			  <thead>

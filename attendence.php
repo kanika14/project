@@ -10,6 +10,9 @@ include_once('inc/header.php');
 <div class="container">
 	<div class="row">
 		<div class="col s12">
+			<h1 class="center">Update Students Info Here</h1>
+		</div>
+		<div class="col s12">
 			<div class="col s12 updateform" method="post">
 			      <div class="row">
 			        <div class="input-field col s4">

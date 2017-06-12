@@ -1,3 +1,17 @@
+
+h1{
+  font-size: 38px;  
+}
+
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 25px
+}
+
 .logo{
 	height: 50px;
     margin-top: 7px;
@@ -24,13 +38,15 @@ top: 60px !important;
 
 
 .section-team{
-	margin-top: 30px;
+  z-index: 9999;
+  background-image: url('../img/background.jpg');
 }
 .section-team .card-profile{
 	    cursor: pointer;
     margin-top: 30px;
     text-align: center;
     border-radius: 6px 6px 6px 6px;
+
 }
 
 .section-team .card-profile .card-avatar{
@@ -73,12 +89,11 @@ h6{
 
 .raisedrow{
   	margin: -75px 30px 0px;
+    padding: 20px;
     border-radius: 6px;
     background: #fff;
-    padding-top: 20px;
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
-
 
  .parallax-container {
       height: 500px;
@@ -88,7 +103,83 @@ h6{
 	padding-top: 50px !important;
 }
 
-
 .raisedrow .s4{
 	padding-top: 20px !important;
+}
+
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  
+.page-footer {
+    background-color: #3f51b5 !important;
+}  
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; 
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
+.page-footer .material-icons{
+	color: #fff;
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+.page-footer p{
+	color: #fff !important;
+}
+
+.footer-copyright .container{
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.footer-copyright .row{
+	margin-bottom: 0px;
+}
+
+.scroll img{
+  margin-right: 20px !important;
+}
+
+.fixed-action-btn{
+  z-index: 99999;
+}
+
+.welcome .card-profile{
+  margin-top: 60px;
+}
+
+.card-profile .footer{
+  padding-bottom: 20px;
 }

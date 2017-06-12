@@ -7,10 +7,14 @@ if(!isset($_SESSION['user_name'])){
 include_once('inc/header.php');
 
 $user_type = $_SESSION['user_type'];
+$name = $_SESSION['user_name'];
  ?>
 
- <div class="container section-team">
- 	<div class="row">
+ <div class="container  section-team">
+ 	<div class="row welcome">
+ 		<div class="col s12">
+ 			<h1 class="center">Hey <?php echo $name; ?> Welcome to the <?php echo $user_type; ?> Section</h1>
+ 		</div>
  		<div class="col s4">
  			<div class="card card-profile">
  				<div class="card-avatar">
@@ -22,8 +26,13 @@ $user_type = $_SESSION['user_type'];
  					Smile and let everyone know that today, you're a lot stronger than you were yesterday...<br>
  					- Drake
  				</p>
+ 				<?php if ($user_type == 'student') { ?>	
+ 				<a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+ 			<?php 	} ?>
  				<div class="footer">
- 					
+ 				<?php if ($user_type == 'admin') { ?>
+ 					<a class="waves-effect waves-light btn" href="students.php">Manage Students</a>
+ 					<?php } ?>
  				</div>
  			</div>
  		</div>
@@ -55,3 +64,4 @@ $user_type = $_SESSION['user_type'];
 </div> 
 
 
+<?php include_once 'inc/footer.php'; ?>
