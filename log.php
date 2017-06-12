@@ -10,7 +10,7 @@ if(isset($_POST['login_button'])) {
 	$resultset = mysqli_query($conn, $sql) or die("database error:". mysqli_error($conn));
 	$row = mysqli_fetch_assoc($resultset);	
 		
-	if($row['password']==$user_password){				
+	if($row['password'] == $user_password){				
 		echo "ok";
 		$_SESSION['user_name'] = $row['name'];
 		$_SESSION['user_email'] = $row['email'];

@@ -39,7 +39,7 @@ include_once('inc/header.php');
 
 <div class="container section-team">
 	<div class="row raisedrow">
-		<h3 class="center">TALK TO US</h3>
+		<h3 class="center heading">TALK TO US</h3>
 		<div class="col s12" style="margin-top: -60px;">
 			<div class="carousel">
 			   <a class="carousel-item" href="#one!"><img src="img/whatsapp1600.png">
@@ -57,7 +57,7 @@ include_once('inc/header.php');
 			 </div>
 		</div>
 		<div class="col s12 center">
-			<h3>WHY GLOBAL</h3>
+			<h3 class="heading">WHY GLOBAL</h3>
 		</div>
 		<div class="col s12 center">
 			<p class="paragraph">Global Institute of Technology is a sunrise hub for providing education in the part of Delhi-NCR. In a world where knowledge and talent count so heaving, it is people-faculty, students and staff - who matter the most to the quality of a vital educational institution. GITM is approved by AICTE, Ministry of HRD, Govt. of India and DTE Haryana and is Affiliated to MDU, Rohtak, MDU-which has been conferred ‘A’ Grade by NAAC. Emphasis at GITM is firmly...</p>
@@ -75,10 +75,10 @@ include_once('inc/header.php');
 	 	</div>
 
  		<div class="col s4">
- 			<div class="card card-profile">
+ 			<div class="card card-profile" >
  	 			
  	 			<h4 class="title">Corporate Interaction</h4>
- 	 			<p class="card-description">Center for Corporate Relations is an integral and a very important department for Engineering & Management Graduates. Students learn right perspective and orientation before entering into the job market. Global Institute has an effective CCR devoted to cater to the needs of the future technocrats & managers. CCR is committed to Entrepreneurship Development among students apart from their placement in various corporate houses to create self-employment opportunities by imparting training in entrepreneurship building to the Engineering  & Managements students who want to set up their own-business enterprises. </p>
+ 	 			<p class="card-description" style="margin-bottom: -5px;">Center for Corporate Relations is an integral and a very important department for Engineering & Management Graduates. Students learn right perspective and orientation before entering into the job market. Global Institute has an effective CCR devoted to cater to the needs of the future technocrats & managers. CCR is committed to Entrepreneurship Development among students apart from their placement in various corporate houses to create self-employment opportunities by imparting training in entrepreneurship building to the Engineering  & Managements students who want to set up their own-business enterprises. </p>
  	 			<div class="footer">
  	 			</div>
  	 		</div>
@@ -88,41 +88,38 @@ include_once('inc/header.php');
  			<div class="card card-profile">
  	 			
  	 			<h4 class="title">Mentor-Mentee Programme (MMP)</h4>
- 	 			<p class="card-description">This concept aims at strengthening the bond between the Faculty & the Students. Tutorial meetings are conducted to help students in identifying their strengths and shortcomings, including positive value system, motivating the students to excel in whatever they do, redressing their grievances & improving their overall performance. A group of 30 students is entrusted to a Faculty who acts as a facilitator, a guide, mentor to them by maintaining a personal rapport & attending to individual needs of students.</p>
+ 	 			<p class="card-description" style="margin-bottom: 2px;">This concept aims at strengthening the bond between the Faculty & the Students. Tutorial meetings are conducted to help students in identifying their strengths and shortcomings, including positive value system, motivating the students to excel in whatever they do, redressing their grievances & improving their overall performance. A group of 30 students is entrusted to a Faculty who acts as a facilitator, a guide, mentor to them by maintaining a personal rapport & attending to individual needs of students.</p>
  	 			<div class="footer">
  	 			</div>
  	 		</div>
  	 	</div>
 		<div class="col s12">
-			<h3 class="center">OUR PROGRAMMES</h3>
+			<h3 class="center heading">OUR PROGRAMMES</h3>
 		</div>
+		<div class="col s1 center"></div>
 		<div class="col s2 center">
  	 		<img src="img/images (2).png" height="100" width="200" />
- 	 		<a class="waves-effect waves-light btn">Know More</a>
+ 	 		<a class="waves-effect waves-light btn" style="margin-top: 30px;">Know More</a>
  	 	</div>
  	 	<div class="col s2 center">
  	 		<img src="img/download (3).jpg" height="100" width="200" />
- 	 		<a class="waves-effect waves-light btn">Know More</a>
+ 	 		<a class="waves-effect waves-light btn" style="margin-top: 30px;">Know More</a>
  	 	</div>
  	 	<div class="col s2 center">
  	 		<img src="img/download (4).jpg" height="100" width="200"/>
- 	 		<a class="waves-effect waves-light btn">Know More</a>
- 	 	</div>
- 	 	<div class="col s2 center">
- 	 		<img src="img/download (1).png" height="100" width="200"/>
- 	 		<a class="waves-effect waves-light btn">Know More</a>
+ 	 		<a class="waves-effect waves-light btn" style="margin-top: 30px;">Know More</a>
  	 	</div>
  	 	<div class="col s2 center">
  	 		<img src="img/images.png" height="100" width="200"/>
- 	 		<a class="waves-effect waves-light btn">Know More</a>
+ 	 		<a class="waves-effect waves-light btn" style="margin-top: 30px;">Know More</a>
  	 	</div>
  	 	<div class="col s2 center">
  	 		<img src="img/images (1).png" height="100" width="200"/>
- 	 		<a class="waves-effect waves-light btn">Know More</a>
+ 	 		<a class="waves-effect waves-light btn" style="margin-top: 30px;">Know More</a>
  	 	</div>
- 	
+ 		<div class="col s1 center"></div>
  	 	<div class="col s12">
- 	 		<h3 class="center">OUR LEADING RECRUITERS</h3>
+ 	 		<h3 class="center heading">OUR LEADING RECRUITERS</h3>
  	 	</div>
 
  	 	<div class="col s2"></div>

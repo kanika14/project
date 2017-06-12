@@ -88,7 +88,7 @@ $('document').ready(function() {
 			},
 			success : function(response){						
 				if(response=="ok"){									
-					$("#login_button").html("<h6 style='font-size:10px;'>Signin</h6>");
+					$("#login_button").text("Signin In");
 					setTimeout(' window.location.href = "welcome.php"; ',500);
 				} else {									
 					$("#error").fadeIn(1000, function(){						
